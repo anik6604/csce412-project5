@@ -3,48 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IgniteX 2025 - Innovate. Inspire. Ignite.</title>
+  <title>Project 5 - Static Website Deployment</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <div class="overlay">
-      <h1>IgniteX 2025</h1>
-      <p>The Future of Technology Starts Here</p>
-      <a href="#about" class="btn">Learn More</a>
-    </div>
+    <h1>Project 5: Secure Static Website</h1>
+    <p>By <strong>Anik Momin</strong></p>
+    <p class="subheading">Deployed with AWS CodePipeline, CloudFront, and ACM</p>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About the Conference</h2>
-      <p>IgniteX 2025 is a global summit for innovators, entrepreneurs, and developers to showcase cutting-edge technologies that will define the future. Hosted in Seattle, WA.</p>
+    <section class="card">
+      <h2>About This Project</h2>
+      <p>
+        This site demonstrates automatic deployment of static websites to AWS S3 using GitHub and CodePipeline. Changes pushed to the repo are instantly reflected on this live site.
+      </p>
     </section>
 
-    <section id="details">
-      <h2>Event Highlights</h2>
+    <section class="card">
+      <h2>Deployment Details</h2>
       <ul>
-        <li>🔬 100+ Demos and Exhibits</li>
-        <li>🎤 Keynotes by Tech Giants</li>
-        <li>🧠 Hands-on AI/ML Workshops</li>
-        <li>🌐 Networking with Startups & VCs</li>
-        <li>🔐 Cybersecurity & Cloud Panels</li>
-      </ul>
-    </section>
-
-    <section id="deployment">
-      <h2>Site Deployment</h2>
-      <p>This page was auto-deployed using:</p>
-      <ul>
-        <li>AWS CodePipeline</li>
-        <li>Amazon S3 & CloudFront</li>
-        <li>SSL via AWS Certificate Manager (ACM)</li>
+        <li><strong>Pipeline:</strong> AWS CodePipeline (GitHub → S3)</li>
+        <li><strong>SSL:</strong> Managed via AWS ACM (HTTPS secure)</li>
+        <li><strong>CDN:</strong> Delivered globally through AWS CloudFront</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 IgniteX. Built by Anik Momin. All rights reserved.</p>
+    <p>&copy; 2025 Anik Momin. All rights reserved.</p>
   </footer>
 </body>
 </html>
