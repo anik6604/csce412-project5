@@ -3,47 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Project 5 - Static Website Deployment</title>
+  <title>Anik's AWS Deployment</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>Project 5: Secure Static Website</h1>
-    <p>By <strong>Anik Momin</strong></p>
-    <p class="subheading">Deployed with AWS CodePipeline, CloudFront, and ACM</p>
+    <div class="container">
+      <h1>🚀 Anik's AWS Project 5</h1>
+      <p class="tagline">Static Website • CloudFront • SSL • CodePipeline</p>
+    </div>
   </header>
 
   <main>
     <section class="card">
-      <h2>🔧 About This Project</h2>
+      <h2>📘 About This Project</h2>
       <p>
-        This site demonstrates seamless deployment of static websites using AWS services. Any change pushed to GitHub triggers a pipeline that updates this live site — no manual deploys needed.
+        This site auto-deploys via CodePipeline from GitHub to S3, secured with ACM and distributed globally using CloudFront. No manual deploys — just push and ship.
       </p>
     </section>
 
     <section class="card">
-      <h2>📦 Deployment Details</h2>
+      <h2>⚙️ Tech Stack</h2>
       <ul>
-        <li><strong>Pipeline:</strong> AWS CodePipeline (GitHub → S3)</li>
-        <li><strong>SSL:</strong> Managed via AWS ACM with HTTPS</li>
-        <li><strong>CDN:</strong> Accelerated globally with AWS CloudFront</li>
+        <li><strong>Hosting:</strong> Amazon S3 (Static Website)</li>
+        <li><strong>CI/CD:</strong> AWS CodePipeline (GitHub → S3)</li>
+        <li><strong>SSL:</strong> ACM for HTTPS</li>
+        <li><strong>CDN:</strong> CloudFront with cache invalidation</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>📂 Tech Stack</h2>
-      <ul>
-        <li>HTML5 + CSS3 (static site)</li>
-        <li>GitHub for version control</li>
-        <li>Amazon S3 for static hosting</li>
-        <li>Amazon CloudFront for caching & speed</li>
-        <li>AWS Certificate Manager for SSL</li>
-      </ul>
+      <h2>📈 Why This Matters</h2>
+      <p>
+        It’s a production-ready pipeline using modern cloud architecture. Fully automated and scalable — ideal for dev teams or solo projects alike.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Anik Momin. All rights reserved.</p>
+    <p>&copy; 2025 Anik Momin — All rights reserved.</p>
   </footer>
 </body>
 </html>
